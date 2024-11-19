@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Nimed">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" name="inimene">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="populaarne">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="riik">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="gender">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="id" type="xs:unsignedByte" />
+																<xs:element name="first_name" type="xs:string" />
+																<xs:element name="emakeelne_nimi" type="xs:string" />
+																<xs:element name="võõrkeelne_nimi" type="xs:string" />
+															</xs:sequence>
+															<xs:attribute name="nimi" type="xs:string" use="required" />
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+												<xs:attribute name="nimi" type="xs:string" use="required" />
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="nimi" type="xs:string" use="required" />
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
