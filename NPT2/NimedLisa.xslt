@@ -10,12 +10,11 @@
             <tr>
                 <th style="border:solid 1px black;">id</th>
                 <th style="border:solid 1px black;">nimi</th>
-                <th style="border:solid 1px black;">sugu</th>
                 <th style="border:solid 1px black;">emakeelne nimi</th>
                 <th style="border:solid 1px black;">võõrkeelne nimi</th>
-                <th style="border:solid 1px black;" class="sortable" onclick="sortTable(5)">populaarne</th>
-                <th style="border:solid 1px black;" class="sortable" onclick="sortTable(6)">riik</th>
-                <th style="border:solid 1px black;" class="sortable" onclick="sortTable(7)">gender</th>
+                <th style="border:solid 1px black;" class="sortable" onclick="sortTable(4)">populaarne</th>
+                <th style="border:solid 1px black;" class="sortable" onclick="sortTable(5)">riik</th>
+                <th style="border:solid 1px black;" class="sortable" onclick="sortTable(6)">sugu</th>
             </tr>
             <xsl:for-each select="Nimed/inimene">
                 <tr>
@@ -35,9 +34,7 @@
                     <td style="border:solid 1px black;">
                         <xsl:value-of select="populaarne/riik/gender/first_name"/>
                     </td>
-                    <td style="border:solid 1px black;">
-                        <xsl:value-of select="populaarne/riik/gender/@nimi"/>
-                    </td>
+                    
                     <td style="border:solid 1px black;">
                         <xsl:value-of select="populaarne/riik/gender/emakeelne_nimi"/>
                     </td>
@@ -56,5 +53,6 @@
                 </tr>
             </xsl:for-each>
         </table>
+		<div id="popularName"></div>
     </xsl:template>
 </xsl:stylesheet>

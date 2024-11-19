@@ -50,6 +50,30 @@
                        }
                    }
             </script>
+         <script>
+             function showRandomPopularName() {
+                 // Assuming 'names' is an array of objects with 'first_name' and 'timestamp'
+                 const names = [
+                     { name: "John", timestamp: "2024-11-18T10:00:00Z" },
+                     { name: "Jane", timestamp: "2024-11-19T08:00:00Z" },
+                     // Add more names here
+                 ];
+
+                 // Filter names within the last 24 hours
+                 const oneDayAgo = new Date();
+                 oneDayAgo.setHours(oneDayAgo.getHours() - 24);
+                 const recentNames = names.filter(n => new Date(n.timestamp) > oneDayAgo);
+
+                 if (recentNames.length > 0) {
+                     const randomName = recentNames[Math.floor(Math.random() * recentNames.length)];
+                     document.getElementById("popularName").innerText = "Popularne nimi: " + randomName.name;
+                     document.getElementById("popularName").style.display = "block";
+                 }
+             }
+
+             // Show popular name on page load
+             window.onload = showRandomPopularName;
+            </script>
     </head>
     <body>
         <h1>xml ja xslt andmete kuvamine</h1>
