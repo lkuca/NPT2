@@ -1,81 +1,81 @@
 {
-    "Nimed": {
-        "inimene": [
-            {
-                "populaarne": {
-                    "nimi": "85%",
-                    "riik": {
-                        "nimi": "Estonia",
-                        "gender": {
-                            "nimi": "male",
-                            "id": 1,
-                            "first_name": "Juhan",
-                            "emakeelne_nimi": "Juhan",
-                            "v\u00f5\u00f5rkeelne_nimi": "John"
-                        }
-                    }
-                }
-            },
-            {
-                "populaarne": {
-                    "nimi": "72%",
-                    "riik": {
-                        "nimi": "Estonia",
-                        "gender": {
-                            "nimi": "female",
-                            "id": 2,
-                            "first_name": "Maarja",
-                            "emakeelne_nimi": "Maarja",
-                            "v\u00f5\u00f5rkeelne_nimi": "Maria"
-                        }
-                    }
-                }
-            },
-            {
-                "populaarne": {
-                    "nimi": "60%",
-                    "riik": {
-                        "nimi": "Finland",
-                        "gender": {
-                            "nimi": "male",
-                            "id": 3,
-                            "first_name": "Matti",
-                            "emakeelne_nimi": "Matti",
-                            "v\u00f5\u00f5rkeelne_nimi": "Matthew"
-                        }
-                    }
-                }
-            },
-            {
-                "populaarne": {
-                    "nimi": "78%",
-                    "riik": {
-                        "nimi": "Finland",
-                        "gender": {
-                            "nimi": "female",
-                            "id": 4,
-                            "first_name": "Liisa",
-                            "emakeelne_nimi": "Liisa",
-                            "v\u00f5\u00f5rkeelne_nimi": "Lisa"
-                        }
-                    }
-                }
-            },
-            {
-                "populaarne": {
-                    "nimi": "65",
-                    "riik": {
-                        "nimi": "Ameerika",
-                        "gender": {
-                            "nimi": "male",
-                            "id": "5",
-                            "first_name": "George",
-                            "emakeelne_nimi": "Georgen",
-                            "v\u00f5\u00f5rkeelne_nimi": "Georgi"
-                        }
-                    }
-                }
+  "Nimed": {
+    "inimene": [
+      {
+        "populaarne": {
+          "nimi": "85%",
+          "riik": {
+            "nimi": "Estonia",
+            "gender": {
+              "nimi": "male",
+              "id": 1,
+              "first_name": "Juhan",
+              "emakeelne_nimi": "Juhan",
+              "v\u00f5\u00f5rkeelne_nimi": "John"
             }
-        ]
-    }
+          }
+        }
+      },
+      {
+        "populaarne": {
+          "nimi": "72%",
+          "riik": {
+            "nimi": "Estonia",
+            "gender": {
+              "nimi": "female",
+              "id": 2,
+              "first_name": "Maarja",
+              "emakeelne_nimi": "Maarja",
+              "v\u00f5\u00f5rkeelne_nimi": "Maria"
+            }
+          }
+        }
+      },
+      {
+        "populaarne": {
+          "nimi": "60%",
+          "riik": {
+            "nimi": "Finland",
+            "gender": {
+              "nimi": "male",
+              "id": 3,
+              "first_name": "Matti",
+              "emakeelne_nimi": "Matti",
+              "v\u00f5\u00f5rkeelne_nimi": "Matthew"
+            }
+          }
+        }
+      },
+      {
+        "populaarne": {
+          "nimi": "78%",
+          "riik": {
+            "nimi": "Finland",
+            "gender": {
+              "nimi": "female",
+              "id": 4,
+              "first_name": "Liisa",
+              "emakeelne_nimi": "Liisa",
+              "v\u00f5\u00f5rkeelne_nimi": "Lisa"
+            }
+          }
+        }
+      },
+      {
+        "populaarne": {
+          "nimi": "65",
+          "riik": {
+            "nimi": "Ameerika",
+            "gender": {
+              "nimi": "male",
+              "id": "5",
+              "first_name": "George",
+              "emakeelne_nimi": "Georgen",
+              "v\u00f5\u00f5rkeelne_nimi": "Georgi"
+            }
+          }
+        }
+      }
+    ]
+  }
 }
